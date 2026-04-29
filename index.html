@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkSpace Comics </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./lau.js" defer></script>
+     <script src="./yady.js" defer></script>
+     <script src="./david.js" defer></script>
+     <script src="./gaby.js" defer></script>
+     <script src="./emilio.js" defer></script>
+     <script src="./georgy.js" defer></script>
+     <script src="./joss.js" defer></script>
+     <script src="./isa.js" defer></script>
+     <script src="./carlos.js" defer></script>
+     <script src="./eli.js" defer></script>
+     <script src="./arai.js" defer></script>
+     <script src="./liam.js" defer></script>
+     <script src="./belen.js" defer></script>
+    
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+        <div class="contenedor">
+            <!-- LOGO -->
+            <div class="logo">
+                <img src="logo/logo comic.png" alt="Logo">
+            </div>
+            
+            <!-- MENU -->
+            <nav class="menu">
+                <div>
+                    <a class="opciones" href="#">Inicio</a></li>
+                    <a class="opciones" href="#">Géneros</a></li>
+                    <a class="opciones" href="#">Autores</a></li>
+                    <a class="opciones" href="#">Novedades</a></li>
+                </div>
+            </nav>
+            
+            <!-- BARRA DE BÚSQUEDA -->
+            <div class="barra-busqueda">
+                <input class="barra-busqueda" type="text" placeholder="Buscar cómics..."> 
+            </div>
+            
+            <!-- ICONOS DE REDES SOCIALES -->
+            <div class="iconos-redes">
+                <a href="#" class="icono"><img src="./iconos/facebook.png" alt="Facebook"></a> 
+                <a href="#" class="icono"><img src="./iconos/X.png" alt="Twitter"></a> 
+                <a href="#" class="icono"><img src="./iconos/instagram.png" alt="Instagram"></a> 
+        </div>
+    </header>
+
+    <!--  Catálogo  -->
+
+    <dialog id="ventana">
+       <div>
+        <!-- LAU -->
+        <button onclick="anteriorPagina()"id="anteriorBTN" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179);" >cerrar</button>
+        <button onclick="siguientePagina()"id="siguienteBTN" style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+
+        <br>
+        <img src="./imagenes/Lau/Laucomic1.jpg" alt="" id="paginas" width="150px">
+       </div> 
+    </dialog>
+
+    <!-- YADY -->
+     <dialog id="ventana2">
+       <div>
+        <button onclick="anteriorPagina2()"id="anteriorBTN2" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar2();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179)" >cerrar</button>
+        <button onclick="siguientePagina2()"id="siguienteBTN2"style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/yady/yady1.jpg" alt="" id="paginas2" width="150px">
+       
+       </div> 
+    </dialog>
+
+    <!-- DAVID -->
+     <dialog id="ventana3">
+       <div>
+        <button onclick="anteriorPagina3()"id="anteriorBTN3" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar3();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179)" >cerrar</button>
+        <button onclick="siguientePagina3()"id="siguienteBTN3"style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/David/David1.jpg" alt="" id="paginas3" width="150px">
+       
+       </div> 
+    </dialog>
+
+     <!-- GABY -->
+     <dialog id="ventana4">
+       <div>
+        <button onclick="anteriorPagina4()"id="anteriorBTN4" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar4();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179)" >cerrar</button>
+        <button onclick="siguientePagina4()"id="siguienteBTN4" style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/Gaby/Gaby1.jpg" alt="" id="paginas4" width="150px">
+       </div> 
+    </dialog>
+
+    <!-- EMILIO -->
+     <dialog id="ventana5">
+       <div>
+        <button onclick="anteriorPagina5()"id="anteriorBTN5" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar5();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179)" >cerrar</button>
+        <button onclick="siguientePagina5()"id="siguienteBTN5" style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/emilio/emilio1.jpg" alt="" id="paginas5" width="150px">
+       </div> 
+    </dialog>
+
+     <!-- GEORGY -->
+     <dialog id="ventana6">
+       <div>
+        <button onclick="anteriorPagina6()"id="anteriorBTN6" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar6();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179)" >cerrar</button>
+        <button onclick="siguientePagina6()"id="siguienteBTN6"style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/georgy/Georgy1.jpg" alt="" id="paginas6" width="150px">
+       </div> 
+    </dialog>
+
+    <!-- JOSS -->
+     <dialog id="ventana7">
+       <div>
+        <button onclick="anteriorPagina7()"id="anteriorBTN7" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar7();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179);" >cerrar</button>
+        <button onclick="siguientePagina7()"id="siguienteBTN7"style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/joss/joss1.jpg" alt="" id="paginas7" width="150px">
+       </div> 
+    </dialog>
+
+     <!-- ISA -->
+     <dialog id="ventana8">
+       <div>
+        <button onclick="anteriorPagina8()"id="anteriorBTN8" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar8();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179);" >cerrar</button>
+        <button onclick="siguientePagina8()"id="siguienteBTN8"style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/isa/isa1.jpg" alt="" id="paginas8" width="150px">
+       </div> 
+    </dialog>
+
+     <!-- CARLOS -->
+     <dialog id="ventana9">
+       <div>
+        <button onclick="anteriorPagina9()"id="anteriorBTN9" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar9();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179);" >cerrar</button>
+        <button onclick="siguientePagina9()"id="siguienteBTN9" style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/Carlos/carlos1.jpg" alt="" id="paginas9" width="150px">
+       </div> 
+    </dialog>
+
+    <!-- ELI-->
+     <dialog id="ventana10">
+       <div>
+        <button onclick="anteriorPagina10()"id="anteriorBTN10" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar10();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179);" >cerrar</button>
+        <button onclick="siguientePagina10()"id="siguienteBTN10" style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/eli/ELI1.jpg" alt="" id="paginas10" width="150px">
+       </div> 
+    </dialog>
+
+     <!-- ARAI-->
+     <dialog id="ventana11">
+       <div>
+        <button onclick="anteriorPagina11()"id="anteriorBTN11" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+        <button onclick="cerrar11();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179);" >cerrar</button>
+        <button onclick="siguientePagina11()"id="siguienteBTN11" style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+        <br>
+         <img src="./imagenes/Arai/Arai1.jpg" alt="" id="paginas11" width="150px">
+       </div> 
+    </dialog>
+
+    <!-- LIAM-->
+    <dialog id="ventana12">
+        <div>
+         <button onclick="anteriorPagina12()"id="anteriorBTN12" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+         <button onclick="cerrar12();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179);" >cerrar</button>
+         <button onclick="siguientePagina12()"id="siguienteBTN12" style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+         <br>
+          <img src="./imagenes/Liam/liam1.jpg" alt="" id="paginas12" width="150px">
+        </div> 
+     </dialog>
+
+      <!-- BELEN-->
+    <dialog id="ventana13">
+        <div>
+         <button onclick="anteriorPagina13()"id="anteriorBTN13" style="font-size: 40px; color: rgb(70, 2, 179);" disabled>⬅</button> 
+         <button onclick="cerrar13();" class="botones" style="font-size: 20px; font-family:'Michroma'; color: rgb(70, 2, 179);" >cerrar</button>
+         <button onclick="siguientePagina13()"id="siguienteBTN13" style="font-size: 40px; color: rgb(70, 2, 179);" >➡</button>
+         <br>
+          <img src="./imagenes/Belen/belen1.jpg" alt="" id="paginas13" width="150px">
+        </div> 
+     </dialog>
+
+      
+    <main class="catalogo">
+        <div class="contenedor">
+            <h2 class="catalogo h2 " style=font-size:40px;>CATÁLOGO DE CÓMICS</h2>
+
+            
+            <!-- Contenedores tarjetas -->
+            <div class="cuadricula-comics">
+
+                <!-- TARJETA 1 lau -->
+                <div class="tarjeta">
+                    <button onclick="abrir()"id="abrir" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/Lau/Laucomic1.jpg" alt="Cómic 1">
+                    <h3>Horizonte inalcanzable - Laura</h3>
+                </div>
+                
+                <!-- TARJETA 2 yady -->
+                <div class="tarjeta">
+                    <button onclick="abrir2()"id="abrir2"style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/yady/yady1.jpg" alt="Cómic 2">
+                    <h3>Comic - Yady</h3>
+                </div>
+                
+                <!-- TARJETA 3 david -->
+                <div class="tarjeta">
+                    <button onclick="abrir3 ()"id="abrir3" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/David/David1.jpg" alt="Cómic 3">
+                    <h3>No era un ángel - David</h3>
+                </div>
+                
+                <!-- TARJETA 4 gaby -->
+                <div class="tarjeta">
+                     <button onclick="abrir4 ()"id="abrir4" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/Gaby/Gaby1.jpg" alt="Cómic 4">
+                    <h3>El deseo de una estrella - Gaby</h3>
+                </div>
+                
+                <!-- TARJETA 5 emilio -->
+                <div class="tarjeta">
+                     <button onclick="abrir5 ()"id="abrir5" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/emilio/emilio1.jpg" alt="Cómic 5">
+                    <h3>Tu Recuerdo - Emilio</h3>
+                </div>
+                
+                <!-- TARJETA 6 georgy-->
+                <div class="tarjeta">
+                     <button onclick="abrir6 ()"id="abrir6" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/georgy/Georgy1.jpg" alt="Cómic 6">
+                    <h3>El Escape - Georgy</h3>
+                </div>
+                
+                <!-- TARJETA 7  joss-->
+                <div class="tarjeta">
+                    <button onclick="abrir7 ()"id="abrir7" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/joss/joss1.jpg" alt="Cómic 7">
+                    <h3>MIAU - Jocelyn</h3>
+                </div>
+                
+                <!-- TARJETA 8 isa -->
+                <div class="tarjeta">
+                    <button onclick="abrir8 ()"id="abrir8" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/isa/isa1.jpg" alt="Cómic 8">
+                    <h3>Compañía inesperada - Isa</h3>
+                </div>
+                
+                <!-- TARJETA 9 carlos-->
+                <div class="tarjeta">
+                    <button onclick="abrir9 ()"id="abrir9" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/Carlos/carlos1.jpg" alt="Cómic 9">
+                    <h3>Cómic - Carlos</h3>
+                </div>
+                
+                <!-- TARJETA 10 eli -->
+                <div class="tarjeta">
+                    <button onclick="abrir10 ()"id="abrir10" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/eli/ELI1.jpg" alt="Cómic 10">
+                    <h3> La Caja - Eli</h3>
+                </div>
+                
+                <!-- TARJETA 11 arai -->
+                <div class="tarjeta">
+                    <button onclick="abrir11 ()"id="abrir11" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/Arai/Arai1.jpg" alt="Cómic 11">
+                    <h3>La Ultima Migaja - Arai</h3>
+                </div>
+                
+                <!-- TARJETA 12 Liam -->
+                <div class="tarjeta">
+                    <button onclick="abrir12 ()"id="abrir12" style="font-size: 18px; font-family:'Syncopate'; color: blueviolet;">LEER</button>
+                    <img src="./imagenes/Liam/liam1.jpg" alt="Cómic 12">
+                    <h3>En blanco- Liam</h3>
+                </div>
+                
+        </div>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA  -->
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <p>2026 InkSpace Comics. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
